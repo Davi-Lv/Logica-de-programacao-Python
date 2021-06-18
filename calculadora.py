@@ -1,5 +1,4 @@
 print('______________________________________')
-print('|              -Quest 5-             |')
 print('|            -calculadora-           |')
 print('|digite "0" para finalizar o programa|')
 print('|____________________________________|')
