@@ -1,5 +1,4 @@
 print('______________________________________')
-print('|              -Quest 7-             |')
 print('|     -numeros divisiveis por 7-     |')
 print('|digite "0" para finalizar o programa|')
 print('|____________________________________|')
