@@ -1,13 +1,8 @@
 print('______________________________________')
-print('|              -Quest 6-             |')
-print('|     -soma dos numeros inteirios    |')
+print('|    -soma de 2 numeros inteirios    |')
 print('|digite "0" para finalizar o programa|')
 print('|____________________________________|')
 print('')
-
-
-
-
 
 while True:
     x = int(input('valor 1: '))
