@@ -1,0 +1,77 @@
+insert into COORDENADOR (nome,matricula)values('João Cavalcanti',1);
+insert into COORDENADOR (nome,matricula)values('Cleiton Barbosa',2);
+insert into COORDENADOR (nome,matricula)values('Sara Lima',3);
+insert into COORDENADOR (nome,matricula)values('Amilton Tenorio',4);
+insert into COORDENADOR (nome,matricula)values('Samara Maria',5);
+insert into COORDENADOR (nome,matricula)values('Romero Brito',6);
+insert into COORDENADOR (nome,matricula)values('Amanda Souza',7);
+insert into COORDENADOR (nome,matricula)values('Mariane Barreto',8);
+insert into COORDENADOR (nome,matricula)values('Mikael Barbosa',9);
+insert into COORDENADOR (nome,matricula)values('Gustavo Silva',10);
+
+insert into TURMA (num_sala,quantidade_alunos,grade_curricular,matricula_coordenador)values (01,5,'Banco de dados',1);
+insert into TURMA (num_sala,quantidade_alunos,grade_curricular,matricula_coordenador)values(02,5,'Estatística',2);
+insert into TURMA (num_sala,quantidade_alunos,grade_curricular,matricula_coordenador)values(03,5,'Programação Web II',3);
+insert into TURMA (num_sala,quantidade_alunos,grade_curricular,matricula_coordenador)values(04,5,'Estrutura de Dados',4);
+insert into TURMA (num_sala,quantidade_alunos,grade_curricular,matricula_coordenador)values(05,5,'Inglês',5);
+insert into TURMA (num_sala,grade_curricular,matricula_coordenador)values(06,'Matemática discreta',6);
+insert into TURMA (num_sala,grade_curricular,matricula_coordenador)values(07,'Ética',7);
+insert into TURMA (num_sala,grade_curricular,matricula_coordenador)values(08,'Geometria Analítica',8);
+insert into TURMA (num_sala,grade_curricular,matricula_coordenador)values(09,'Literatura',9);
+insert into TURMA (num_sala,grade_curricular,matricula_coordenador)values(10,'Cálculo I',10);
+
+
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Túlio Eduardo',1000,01,'2003/08/27',54150190,36,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Jeronimo da Silva',1002,01,'2001/06/01',51622140,177,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Vinicius Ferreira',1003,01,'2000/02/14',55180114,85,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Mauricio Pereira',1004,01,'2003/08/08',52144120,890,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Heitor Fidelis',1005,01,'2003/06/03',58900540,14,'Jaboatao');
+
+
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Gabriel Peixoto',1006,02,'2004/01/10',52300100,100,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Danilo Humberto',1007,02,'1995/05/22',45800221,457,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Douglas Melo',1008,02,'1982/05/06',50021411,1223,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Maria Eduarda',1009,02,'2003/02/26',54190150,124,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Leandro Ivanildo',1010,02,'2003/10/15',52140230,24,'Jaboatao');
+
+
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Marina Alves',1011,03,'1994/03/26',51600230,1344,'Moreno');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Caio Costa',1012,03,'1996/04/28',58800114,1622,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Diogo Oliveira',1013,03,'1999/09/12',64850114,25,'Abreu e Lima');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Cleber da Silva',1014,03,'2001/12/17',53200150,401,'Cabo de St. Agostinho');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Jéssica Menezes',1015,03,'1989/05/06',52114220,355,'Recife');
+
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Pedro Henrique',1016,04,'1997/04/21',56800201,1025,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Rayssa Karollyne',1017,04,'1998/07/24',58890552,854,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Luma Maria',1018,04,'2003/12/24',54200900,314,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Lucas Henrique',1019,04,'2000/06/16',63520114,555,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Angela Maria',1020,04,'1985/04/25',32520850,777,'Recife');
+
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Andreza de Souza',1021,05,'1997/06/18',58400321,411,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Gabriela Idelfonso',1022,05,'1991/11/13',53228894,963,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Pedro Henrique',1023,05,'1994/07/07',5144447,141,'Jaboatao');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Cicero Alves',1024,05,'1998/06/23',54111223,63,'Recife');
+insert into ALUNO (nome,matricula,num_salaaluno,data_de_nascimento,cep,numerodacasa,cidade) VALUES ('Sandra Maria',1025,05,'1972/10/20',5644412,81,'Recife');
+
+
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Carolina Torres',12600,01,100,1);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Rogério Carlos',8500,02,102,2);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Josino',12600,03,103,3);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Viviane Aureliano',12600,04,104,4);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Roberta Lima',7500,05,105,5);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Tiago Marques',8500,06,106,6);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Simone Maria',7500,07,107,7);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('José Victor',16600,08,108,8);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Flavia Cavalcanti',10700,09,109,9);
+insert into PROFESSOR (nome,salario,num_turma,matricula, matricula_coordenador)values('Marcone Messias',15600,10,110,10);
+
+insert into TELEFONES (num_telefone,num_coordenador)values('98690-5688',1);
+insert into TELEFONES (num_telefone,num_coordenador)values('98872-9923',2);
+insert into TELEFONES (num_telefone,num_coordenador)values('99723-4498',3);
+insert into TELEFONES (num_telefone,num_coordenador)values('98675-9099',4);
+insert into TELEFONES (num_telefone,num_coordenador)values('98955-2021',5);
+insert into TELEFONES (num_telefone,num_coordenador)values('98552-1422',6);
+insert into TELEFONES (num_telefone,num_coordenador)values('98322-7472',7);
+insert into TELEFONES (num_telefone,num_coordenador)values('98966-5214',8);
+insert into TELEFONES (num_telefone,num_coordenador)values('98644-2251',9);
+insert into TELEFONES (num_telefone,num_coordenador)values('99925-9963',10);
