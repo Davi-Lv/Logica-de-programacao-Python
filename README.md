@@ -1,1 +1,1 @@
-Todas as coisas que estudo sobre programação de alguma linguagem posto aqui
+Tudo que estudo sobre alguma das varias linguagens de programação posto aqui
