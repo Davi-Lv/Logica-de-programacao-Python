@@ -1,1 +1,1 @@
-Tudo que estudo sobre alguma das varias linguagens de programação posto aqui
+Tudo que aprendi e usei criando algo no Python
