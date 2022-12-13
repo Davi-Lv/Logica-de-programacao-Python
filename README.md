@@ -1,3 +1,3 @@
-<h3>Tudo que aprendi e usei criando algo no Python</h3>
+# Atividades com Python 
 
-Qualquer arquivo está auto-descritivo do que ele faz. para mais detalhes abra o arquivo que ira ter a explicação
+- Todos os arquivos estão com o nome **auto-descritivo** do que ele faz. **Para mais detalhes, abra o arquivo que ira ter a explicação**
